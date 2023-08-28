@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "simplesegmentedcontrol",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ambas/SimpleSegmentedControl",
+      "state" : {
+        "branch" : "main",
+        "revision" : "f880da3f56941f91b83d74d42a20261864f58ad0"
+      }
+    }
+  ],
+  "version" : 2
+}

@@ -11,6 +11,9 @@
 		F585D8272A9CF10200528933 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F585D8262A9CF10200528933 /* ContentView.swift */; };
 		F585D8292A9CF10300528933 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F585D8282A9CF10300528933 /* Assets.xcassets */; };
 		F585D82D2A9CF10300528933 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F585D82C2A9CF10300528933 /* Preview Assets.xcassets */; };
+		F585D8352A9CF14600528933 /* SimpleSegmentedControl in Frameworks */ = {isa = PBXBuildFile; productRef = F585D8342A9CF14600528933 /* SimpleSegmentedControl */; };
+		F585D8372A9CF14F00528933 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = F585D8362A9CF14F00528933 /* Models.swift */; };
+		F585D8392A9CF19000528933 /* AlignmnetGuideOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = F585D8382A9CF19000528933 /* AlignmnetGuideOverlay.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,8 @@
 		F585D8282A9CF10300528933 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F585D82A2A9CF10300528933 /* CustomAlignmentExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CustomAlignmentExample.entitlements; sourceTree = "<group>"; };
 		F585D82C2A9CF10300528933 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F585D8362A9CF14F00528933 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		F585D8382A9CF19000528933 /* AlignmnetGuideOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignmnetGuideOverlay.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F585D8352A9CF14600528933 /* SimpleSegmentedControl in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,6 +63,8 @@
 				F585D8282A9CF10300528933 /* Assets.xcassets */,
 				F585D82A2A9CF10300528933 /* CustomAlignmentExample.entitlements */,
 				F585D82B2A9CF10300528933 /* Preview Content */,
+				F585D8362A9CF14F00528933 /* Models.swift */,
+				F585D8382A9CF19000528933 /* AlignmnetGuideOverlay.swift */,
 			);
 			path = CustomAlignmentExample;
 			sourceTree = "<group>";
@@ -85,6 +93,9 @@
 			dependencies = (
 			);
 			name = CustomAlignmentExample;
+			packageProductDependencies = (
+				F585D8342A9CF14600528933 /* SimpleSegmentedControl */,
+			);
 			productName = CustomAlignmentExample;
 			productReference = F585D8212A9CF10200528933 /* CustomAlignmentExample.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +124,9 @@
 				Base,
 			);
 			mainGroup = F585D8182A9CF10200528933;
+			packageReferences = (
+				F585D8332A9CF14600528933 /* XCRemoteSwiftPackageReference "SimpleSegmentedControl" */,
+			);
 			productRefGroup = F585D8222A9CF10200528933 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -139,6 +153,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F585D8372A9CF14F00528933 /* Models.swift in Sources */,
+				F585D8392A9CF19000528933 /* AlignmnetGuideOverlay.swift in Sources */,
 				F585D8272A9CF10200528933 /* ContentView.swift in Sources */,
 				F585D8252A9CF10200528933 /* CustomAlignmentExampleApp.swift in Sources */,
 			);
@@ -355,6 +371,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F585D8332A9CF14600528933 /* XCRemoteSwiftPackageReference "SimpleSegmentedControl" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ambas/SimpleSegmentedControl";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F585D8342A9CF14600528933 /* SimpleSegmentedControl */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F585D8332A9CF14600528933 /* XCRemoteSwiftPackageReference "SimpleSegmentedControl" */;
+			productName = SimpleSegmentedControl;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F585D8192A9CF10200528933 /* Project object */;
 }
