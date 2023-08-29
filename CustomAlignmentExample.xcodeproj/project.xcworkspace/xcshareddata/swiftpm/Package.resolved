@@ -1,6 +1,15 @@
 {
   "pins" : [
     {
+      "identity" : "simpleexample",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ambas/SimpleExample",
+      "state" : {
+        "branch" : "main",
+        "revision" : "5b7136e5fefcc7b0f6fa330aa59b39a783ff5eb6"
+      }
+    },
+    {
       "identity" : "simplesegmentedcontrol",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/ambas/SimpleSegmentedControl",

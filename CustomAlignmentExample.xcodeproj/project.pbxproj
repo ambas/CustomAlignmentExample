@@ -14,6 +14,7 @@
 		F585D8352A9CF14600528933 /* SimpleSegmentedControl in Frameworks */ = {isa = PBXBuildFile; productRef = F585D8342A9CF14600528933 /* SimpleSegmentedControl */; };
 		F585D8372A9CF14F00528933 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = F585D8362A9CF14F00528933 /* Models.swift */; };
 		F585D8392A9CF19000528933 /* AlignmnetGuideOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = F585D8382A9CF19000528933 /* AlignmnetGuideOverlay.swift */; };
+		F585D83C2A9DC64B00528933 /* SimpleExample in Frameworks */ = {isa = PBXBuildFile; productRef = F585D83B2A9DC64B00528933 /* SimpleExample */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F585D8352A9CF14600528933 /* SimpleSegmentedControl in Frameworks */,
+				F585D83C2A9DC64B00528933 /* SimpleExample in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +97,7 @@
 			name = CustomAlignmentExample;
 			packageProductDependencies = (
 				F585D8342A9CF14600528933 /* SimpleSegmentedControl */,
+				F585D83B2A9DC64B00528933 /* SimpleExample */,
 			);
 			productName = CustomAlignmentExample;
 			productReference = F585D8212A9CF10200528933 /* CustomAlignmentExample.app */;
@@ -126,6 +129,7 @@
 			mainGroup = F585D8182A9CF10200528933;
 			packageReferences = (
 				F585D8332A9CF14600528933 /* XCRemoteSwiftPackageReference "SimpleSegmentedControl" */,
+				F585D83A2A9DC64B00528933 /* XCRemoteSwiftPackageReference "SimpleExample" */,
 			);
 			productRefGroup = F585D8222A9CF10200528933 /* Products */;
 			projectDirPath = "";
@@ -381,6 +385,14 @@
 				kind = branch;
 			};
 		};
+		F585D83A2A9DC64B00528933 /* XCRemoteSwiftPackageReference "SimpleExample" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ambas/SimpleExample";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -388,6 +400,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = F585D8332A9CF14600528933 /* XCRemoteSwiftPackageReference "SimpleSegmentedControl" */;
 			productName = SimpleSegmentedControl;
+		};
+		F585D83B2A9DC64B00528933 /* SimpleExample */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F585D83A2A9DC64B00528933 /* XCRemoteSwiftPackageReference "SimpleExample" */;
+			productName = SimpleExample;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

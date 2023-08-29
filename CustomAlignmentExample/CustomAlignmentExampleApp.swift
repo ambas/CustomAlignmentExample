@@ -6,12 +6,15 @@
 //
 
 import SwiftUI
+import SimpleExample
 
 @main
 struct CustomAlignmentExampleApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SimpleExampleView(title: "Custom Alignment", items: [
+                .init(title: "Same Component", view: ContentView()),
+            ])
         }
     }
 }
