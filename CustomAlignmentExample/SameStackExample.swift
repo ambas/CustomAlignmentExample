@@ -8,7 +8,7 @@
 import SwiftUI
 import SimpleSegmentedControl
 
-struct ContentView: View {
+struct SameStackExample: View {
     @State var greenBaseline: MyVerticalAlignment = .center
     @State var redBseline: MyVerticalAlignment = .center
     @State var showAligmentGuide = false
@@ -57,7 +57,7 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    SameStackExample()
 }
 
 extension VerticalAlignment {
