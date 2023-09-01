@@ -13,7 +13,8 @@ struct CustomAlignmentExampleApp: App {
     var body: some Scene {
         WindowGroup {
             SimpleExampleView(title: "Custom Alignment", items: [
-                .init(title: "Same Component", view: ContentView()),
+                .init(title: "Same Stack", view: SameStackExample()),
+                .init(title: "Different Component", view: DifferentComponent()),
             ])
         }
     }

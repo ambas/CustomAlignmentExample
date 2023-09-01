@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F5128FDD2A9EDF41004A3393 /* DifferentComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5128FDC2A9EDF41004A3393 /* DifferentComponent.swift */; };
 		F585D8252A9CF10200528933 /* CustomAlignmentExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F585D8242A9CF10200528933 /* CustomAlignmentExampleApp.swift */; };
-		F585D8272A9CF10200528933 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F585D8262A9CF10200528933 /* ContentView.swift */; };
+		F585D8272A9CF10200528933 /* SameStackExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = F585D8262A9CF10200528933 /* SameStackExample.swift */; };
 		F585D8292A9CF10300528933 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F585D8282A9CF10300528933 /* Assets.xcassets */; };
 		F585D82D2A9CF10300528933 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F585D82C2A9CF10300528933 /* Preview Assets.xcassets */; };
 		F585D8352A9CF14600528933 /* SimpleSegmentedControl in Frameworks */ = {isa = PBXBuildFile; productRef = F585D8342A9CF14600528933 /* SimpleSegmentedControl */; };
@@ -18,9 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F5128FDC2A9EDF41004A3393 /* DifferentComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifferentComponent.swift; sourceTree = "<group>"; };
 		F585D8212A9CF10200528933 /* CustomAlignmentExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomAlignmentExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F585D8242A9CF10200528933 /* CustomAlignmentExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlignmentExampleApp.swift; sourceTree = "<group>"; };
-		F585D8262A9CF10200528933 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F585D8262A9CF10200528933 /* SameStackExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SameStackExample.swift; sourceTree = "<group>"; };
 		F585D8282A9CF10300528933 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F585D82A2A9CF10300528933 /* CustomAlignmentExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CustomAlignmentExample.entitlements; sourceTree = "<group>"; };
 		F585D82C2A9CF10300528933 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -61,12 +63,13 @@
 			isa = PBXGroup;
 			children = (
 				F585D8242A9CF10200528933 /* CustomAlignmentExampleApp.swift */,
-				F585D8262A9CF10200528933 /* ContentView.swift */,
+				F585D8262A9CF10200528933 /* SameStackExample.swift */,
 				F585D8282A9CF10300528933 /* Assets.xcassets */,
 				F585D82A2A9CF10300528933 /* CustomAlignmentExample.entitlements */,
 				F585D82B2A9CF10300528933 /* Preview Content */,
 				F585D8362A9CF14F00528933 /* Models.swift */,
 				F585D8382A9CF19000528933 /* AlignmnetGuideOverlay.swift */,
+				F5128FDC2A9EDF41004A3393 /* DifferentComponent.swift */,
 			);
 			path = CustomAlignmentExample;
 			sourceTree = "<group>";
@@ -159,8 +162,9 @@
 			files = (
 				F585D8372A9CF14F00528933 /* Models.swift in Sources */,
 				F585D8392A9CF19000528933 /* AlignmnetGuideOverlay.swift in Sources */,
-				F585D8272A9CF10200528933 /* ContentView.swift in Sources */,
+				F585D8272A9CF10200528933 /* SameStackExample.swift in Sources */,
 				F585D8252A9CF10200528933 /* CustomAlignmentExampleApp.swift in Sources */,
+				F5128FDD2A9EDF41004A3393 /* DifferentComponent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
