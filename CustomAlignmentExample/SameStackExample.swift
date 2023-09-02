@@ -60,7 +60,7 @@ struct SameStackExample: View {
     SameStackExample()
 }
 
-extension VerticalAlignment {
+private extension VerticalAlignment {
     private struct PokemonAlignment: AlignmentID {
         static func defaultValue(in context: ViewDimensions) -> CGFloat {
             context[VerticalAlignment.bottom]

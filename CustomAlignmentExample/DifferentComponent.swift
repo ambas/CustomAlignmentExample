@@ -9,11 +9,14 @@ import SwiftUI
 
 struct DifferentComponent: View {
     var body: some View {
-        VStack {
+        HStack(alignment: .pokemonAlignment) {
             Image(._1)
+                .resizable()
+                .aspectRatio(contentMode: .fit)
             ChildComponent()
         }
     }
+
 }
 
 #Preview {
@@ -22,8 +25,20 @@ struct DifferentComponent: View {
 
 struct ChildComponent: View {
     var body: some View {
-        VStack {
-            
+        HStack(alignment: .pokemonAlignment) {
+            Image(._4)
+                .resizable()
+                .aspectRatio(contentMode: .fit)
         }
     }
+}
+
+private extension VerticalAlignment {
+    private struct PokemonAlignment: AlignmentID {
+        static func defaultValue(in context: ViewDimensions) -> CGFloat {
+            context[VerticalAlignment.bottom]
+        }
+    }
+    
+    static let pokemonAlignment = VerticalAlignment(PokemonAlignment.self)
 }
